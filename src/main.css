@@ -1,7 +1,40 @@
-.main {
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-table, th, td {
-    border: 1px solid black;
+body {
+    background: rgb(0, 0, 100);
+    color: white;
+}
+
+.main {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+.main .header {
+    padding-bottom: 30px;
+}
+.main .links {
+    background: white;
+    color: black;
+    padding: 30px 0;
+}
+.main .footer {
+    padding-top: 30px;
+}
+.main a {
+    color: white;
+}
+.main .links a {
+    color: black;
+}
+
+table {
+    border: 1px solid rgb(100, 100, 100);
+    background: rgb(200, 200, 200);
 }
